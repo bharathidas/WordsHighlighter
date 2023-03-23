@@ -1,0 +1,11 @@
+/*
+Place your custom CSS here
+*/
+.highlightClass {
+    background-color: yellow
+}
+
+.activeClass {
+    background-color: #ff9632;
+    font-weight: 400; 
+}

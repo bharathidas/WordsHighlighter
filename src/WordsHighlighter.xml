@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="mendix.wordshighlighter.WordsHighlighter" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Words Highlighter</name>
+    <description>My widget description</description>
+    <icon> 
+   /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/2wBDAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/wAARCAAkACgDASIAAhEBAxEB/8QAHQAAAgEEAwAAAAAAAAAAAAAAAAkGAQMEBwIICv/EACoQAAIDAAIBAwEJAQEAAAAAAAIDAQQFBgcACBESFRMUITE0cXSxsyIz/8QAGwEAAQQDAAAAAAAAAAAAAAAACAADBQkEBwr/xAApEQACAwACAQMDAwUAAAAAAAADBAECBQYHCAAREhMUFRYhIwkXIiQx/9oADAMBAAIRAxEAPwD3Ul+c/vP9+U8qX5z+8/35qvsXsJ/HsXlVXhNbN5f2FgYqtkeFr0VRphQe0VfU3Zyjm9ZRVWU25o1hC3eGEVkGpl6qw4LknJMjieO7t7TFwppLNsfRXAZ3ResmkzoESycxShntbTIqmyRbNzwMOs/SvAA3ms+0jlZTuy8DPQHW5zlAL5lINdVeDsBVow62a1F0lKGOKhW2SCXD86yQlYmPVvtruPiPT+DOryGx940bQsHE49UYP1TZshH4woZgoq0lTMTc0rAxXrj7AEPttrVLCeey+4ub9pchne39R9dddkljY+c+xXy8NUe3xGgmGyUWS9oKxfaR27B+3zaKgSlUR5dy7kfOd69yTlWpZ1ti8cy6xYmIFKxIpXUq1xgU06df5ENepXWtCRmYAImSmY15zq+VHmVzTyD1SY2RZ7iPV+c39TJ40FiRPbJQX919jlR1iTRpz5VqZTLEQmbkz8IFLjo76R7P+nui8HrNOr7sL7XLmg/F3WuKLro0JX2IjjjLWLBB7TNDN3rVp2PlN/oAtVQbSfSN6j7/AC/Tyesec2HXeRB/1xvkLjJr9qtQCbT83XYUyxmpVppdYRonMzoVUNG6UX1C/RPIh6LOiro7OR3DyZLKqEsMeFZ7BiGXZtrZRs79gCiZCmNd9ivlgUCyw0z0B+CE0m2jy43wg0+2tfx+40929Zk2kVk/6Rd05vO7ocEhRD8C7uSX+YrZjfkPsm2P9l7FrlOMWMU9mTg15AqcLS7K1l+EwKitBD/NAUisZy3IpMx+RBnxT/CgaU+2+4CL+Jd+XACilRwIbFWEIQZmQgAQRGZTAiIj7yREUzECIxEzMzMRERMzPt4gqOWcp4n2Bd5Rl8nfa5Pmb+g6OT1rMWo1bAW3KsXCaRNVeo6gfOWpbLq1uo+VMFiTkZa131zvr/WF/R+lzuzxPkvMKcpHUoEE5+O45W3OzuVWYYE1KHIZmKzqgkDG0WfK42pTtobYVzZ6d7DrdhR1gXHrLOWnZhSaqvxqWKkyRDsJvFAInFlIlYLROQSlQMGx9k9TUgEv9R7le9y/lPV+N1ws/sk4Fyd/LLyLhu3fSdy+zNuckubxJnJxbkcyeTKr5az2Ky18G3Ds6SOREM5WyOm/vFrFzsTI5a9ykqyNeR5CzlMvdz6qgb4nnw5RraE6/FQO5JiOFXfEKJAEYlGHZkTiNp3LybjOD3/haHY3XOfXyuy8qvN3sfrilHsOwMTEWOX8QrzMsf8Absn56OcHzebz+JfPSNLt/l6YvT23tDYjlPKazVcCw7cCxJwxRcm00EJ/SkF8Yn6aifadiysxOYIKFYoc576Um6h9MPduB2fh6Ggt3Cc/Cuxet8oo6mTemxVVHuyhnV61uwVqdZczScq/Wioqq553kOgPuVhp1etWqKhFSuiqmDc2E11LSqGWHMsPZC1iIfN72te4/b5NcxjTkjMinN8cvE3+8/Js7t/vDrvb4Jr8a1WFuVcS1sGMPE7V5EnVc6XLL4bUJt41JNYs8vQBm247yjVGJrNuAbO/nUY7R7m/QmS1wnr7k+fyJLVTEXH2ktKdDQ4dmHkg2MaugH64H7RStYxGCNRqZCdrhbqSwc1q+ZmqUh9BCFrSlLaqkpUArUpSzWC1rWEQC1rCIEAGIERiBGIiIjw8uUv1lT+Sj/UPDy4ata0rWlKxWtYita1iK1rWse0VrEe0RERERERERER7R6B6ZmZmZmZmZmZmZ95mZ/eZmZ/eZmf3mZ/76XL6kfTtwDEWPM8t/Ja+nvciUrRQ/aLTqtZff87Vv7bWrX9U7TDYRybtNq4Kf/L2/DzvjgcYyeOZ+PQopN54eLXwKenosm/slmVxTEV7Go+JtNBrK6ntVBhXlqwlaVitQAeHgJ+OnGONYvkX5Jhx+PYeSEEcNsAWZkoIDDY7/JmDWFRVcVR2MwERyzSIkhhDLeZvStoIjtHX1X+sOqrvaeg5cn5yCXbdZYsSBrZAxxexi3m0UHe46RaZitL2rX2raYmQeHh4eHb6Hb1k0v1lT+Sj/UPDw8PF6Xr/2Q==
+    </icon>
+    <properties>
+        <propertyGroup caption="General">
+           
+    <propertyGroup caption="Data source">
+            <property key="searchwordskey" type="attribute">
+                <caption>Search Words</caption>
+                <description>Search words</description>
+                 <attributeTypes>
+                    <attributeType name="String"/>
+                </attributeTypes>
+            </property>
+            <property key="textToHighlightkey" type="attribute">
+                <caption>Text to Highlight</caption>
+                <description>Text to be highlighted when matched with the search words</description>
+                 <attributeTypes>
+                    <attributeType name="String"/>
+                </attributeTypes>
+            </property>
+    </propertyGroup>
+
+  <propertyGroup caption="Label">
+        <systemProperty key="Label" />
+    </propertyGroup>
+    <propertyGroup caption="Visibility">
+            <systemProperty key="Visibility"/>
+    </propertyGroup>
+
+        </propertyGroup>
+
+        <propertyGroup caption="Behaviour">
+           
+    <propertyGroup caption="Data source">
+            <property key="highlightclassnamekey" type="attribute" required="false">
+                <caption>Highlight Class Name</caption>
+                <description>Class name to be highlighted - Custom Class Name which is used to highlight the text eg,  testHighlightClass</description>
+                 <attributeTypes>
+                    <attributeType name="String"/>
+                </attributeTypes>
+            </property>
+            <property key="activeIndexkey" type="attribute" required="false">
+                <caption>Active Index</caption>
+                <description>Specify the match index that should be actively highlighted.</description>
+                 <attributeTypes>
+                    <attributeType name="Integer"/>
+                </attributeTypes>
+            </property>
+            <property key="autoescapekey" type="boolean" defaultValue="true">
+                <caption>Auto Escape</caption>
+                <description>Escape characters in search Words</description>
+            </property>
+            <property key="caseSensitivekey" type="attribute" required="false">
+                <caption>Case Sensitive</caption>
+                <description>Case Sensitive</description>
+                 <attributeTypes>
+                    <attributeType name="Boolean"/>
+                </attributeTypes>
+            </property>
+            <property key="activeClassNamekey" type="attribute" required="false">
+                <caption>Active Class Name</caption>
+                <description>The class name to be applied to an active match - Custom Class Name which is used to highlight the active text eg. testActiveClass</description>
+                 <attributeTypes>
+                    <attributeType name="String"/>
+                </attributeTypes>
+            </property>
+            
+    </propertyGroup>
+        </propertyGroup>
+
+    </properties>
+</widget>
