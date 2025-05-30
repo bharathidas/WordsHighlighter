@@ -10,8 +10,8 @@ export interface WordsHighlighterContainerProps {
     name: string;
     tabIndex?: number;
     id: string;
-    searchwordskey: EditableValue<string>;
     textToHighlightkey: EditableValue<string>;
+    searchwordskey: EditableValue<string>;
     highlightclassnamekey?: EditableValue<string>;
     activeIndexkey?: EditableValue<Big>;
     autoescapekey: boolean;
@@ -21,8 +21,10 @@ export interface WordsHighlighterContainerProps {
 
 export interface WordsHighlighterPreviewProps {
     readOnly: boolean;
-    searchwordskey: string;
+    renderMode: "design" | "xray" | "structure";
+    translate: (text: string) => string;
     textToHighlightkey: string;
+    searchwordskey: string;
     highlightclassnamekey: string;
     activeIndexkey: string;
     autoescapekey: boolean;

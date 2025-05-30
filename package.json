@@ -1,7 +1,7 @@
 {
   "name": "wordshighlighter",
   "widgetName": "WordsHighlighter",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "My widget description",
   "copyright": "© Mendix Technology BV 2022. All rights reserved.",
   "author": "Bharathidasan",
@@ -25,14 +25,24 @@
     "release": "pluggable-widgets-tools release:web"
   },
   "devDependencies": {
-    "@mendix/pluggable-widgets-tools": "^9.18.0",
+    "@mendix/pluggable-widgets-tools": "^10.18.0",
     "@types/big.js": "^6.0.2",
-    "@types/react": "~17.0.1",
-    "@types/react-dom": "~17.0.1",
     "@types/react-highlight-words": "^0.16.4"
   },
   "dependencies": {
     "classnames": "^2.2.6",
     "react-highlight-words": "^0.20.0"
+  },
+  "overrides": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.0"
+  },
+  "resolutions": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.0"
   }
 }

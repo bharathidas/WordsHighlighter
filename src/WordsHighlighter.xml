@@ -12,20 +12,21 @@
         <propertyGroup caption="General">
            
     <propertyGroup caption="Data source">
-            <property key="searchwordskey" type="attribute">
-                <caption>Search Words</caption>
-                <description>Search words</description>
-                 <attributeTypes>
-                    <attributeType name="String"/>
-                </attributeTypes>
-            </property>
             <property key="textToHighlightkey" type="attribute">
                 <caption>Text to Highlight</caption>
-                <description>Text to be highlighted when matched with the search words</description>
+                <description>Text to be highlighted when matched with the search words.(eg.)The dog is chasing the cat. Or perhaps they are just playing?</description>
                  <attributeTypes>
                     <attributeType name="String"/>
                 </attributeTypes>
             </property>
+            <property key="searchwordskey" type="attribute">
+                <caption>Search Words</caption>
+                <description>Search words (eg.)["and", "dog", "the"]</description>
+                 <attributeTypes>
+                    <attributeType name="String"/>
+                </attributeTypes>
+            </property>
+            
     </propertyGroup>
 
   <propertyGroup caption="Label">

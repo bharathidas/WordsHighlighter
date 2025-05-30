@@ -16,13 +16,14 @@ export interface WordHighlighterProps {
 export class WordHighlighterInput extends Component<WordHighlighterProps> {
    
     render(): ReactNode {
+       
         return <Highlighter
         activeClassName={this.props.activeClassName}
         activeIndex={this.props.activeIndex}
         caseSensitive={this.props.caseSensitive}
         highlightClassName={this.props.highlightClassName}
         searchWords={this.props.searchWords}
-        autoEscape={true}
+        autoEscape={this.props.autoEscape}
         textToHighlight={this.props.textToHighlight}
       />;
  }
